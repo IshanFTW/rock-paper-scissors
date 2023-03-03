@@ -33,16 +33,6 @@ function game(playerChoice){
         computerChoice = getComputerChoice();
         rpc(playerChoice, computerChoice);  
     
-
-    if (computerScore > playerScore){
-        round.textContent = "You've lost the round";
-    }
-    else if(computerScore< playerScore){
-        round.textContent = "Hurray! You won the round";
-    }
-    else{
-        round.textContent = "The round has been tied!";
-    }
 }
 
 
